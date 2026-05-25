@@ -1,4 +1,4 @@
-from main import verifica_par_impar
+from main import verificar_par_impar
 
 
 def test_numero_par():
