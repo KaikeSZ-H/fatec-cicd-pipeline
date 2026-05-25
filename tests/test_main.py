@@ -1,9 +1,11 @@
-n1 = int(2)
-n2 = int(2)
+from main import verifica_par
 
-if (n1 + n2) % 2 == 0:
-    print("Par")
-else:
-    print("Impar")
 
-# Fim
+def test_numero_par():
+    assert verifica_par(2, 2) == "Par"
+
+
+def test_numero_impar():
+    assert verifica_par(1, 2) == "Impar"
+
+#Fim
