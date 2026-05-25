@@ -1,9 +1,10 @@
-n1 = int(2)
-n2 = int(2)
+def verificar_par_impar(n1, n2):
+    # Verifica se a soma de dois números é par ou ímpar.
+    if (n1 + n2) % 2 == 0:
+        return  "Par"
+    return "Impar"
 
-if (n1 + n2) % 2 == 0:
-    print("Par")
-else:
-    print("Impar")
+if __name__ == "__main__":
+    print(verificar_par_impar(2, 2))
 
-# Fim
+#Fim
