@@ -6,5 +6,4 @@ if (n1+n2) % 2 == 0:
 else:
     print("Impar")
 
-exit
 #Fim
