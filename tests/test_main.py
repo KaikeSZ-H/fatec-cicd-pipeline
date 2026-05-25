@@ -7,5 +7,3 @@ def test_numero_par():
 
 def test_numero_impar():
     assert verificar_par_impar(1, 2) == "Impar"
-
-#Fim
