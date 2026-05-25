@@ -7,4 +7,3 @@ def verificar_par_impar(n1, n2):
 
 if __name__ == "__main__":
     print(verificar_par_impar(2, 2))
-    
